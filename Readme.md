@@ -1,10 +1,10 @@
-Meu resultado do
+Meu resultado do Encriptador
 
 # **Alura** **Challenge!**﻿
 
 
 
-##### Desafio feito de forma funcional, porém com algumas dependências:
+##### 1° Desafio feito de forma funcional, porém com algumas dependências:
 
 1. CSS, não está de acordo com o previsto, devida a falta de conhecimento
 
