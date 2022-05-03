@@ -1,38 +1,54 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-			<title>Codificar e Descodificar</title>
-				<script type="text/javascript" src="funcao.js"></script>
-				<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-	
-<div class="logo">
-	<img src="Imagens\logo.png">
-</div>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Codificar e Descodificar</title>
+    <script type="text/javascript" src="funcao.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="logo">
+      <img src="Imagens\logo.png" />
+    </div>
 
+    <h1><p>1° Desafio</p></h1>
 
+    <div class="area">
+      <textarea
+        class="texto1"
+        type="text"
+        cols="25"
+        rows="10"
+        placeholder="Digite seu texto ..."
+      ></textarea>
+      <br />
+      <button class="btn" type="submit" onclick="encriptar(this)">
+        Encriptar
+      </button>
+      <button class="btn2" type="submit" onclick="descriptar(this)">
+        Descripitar
+      </button>
+      <p id="resposta"></p>
+    </div>
 
-<h1><p>1° Desafio</p></h1>
-	
-<div class="area">
-	<textarea class="texto1" type="text" cols="25" rows="10" placeholder="Digite seu texto ..."></textarea>
-	<br>
-		<button class="btn" type="submit" onclick="encriptar(this)">Encriptar</button>
-			<button class="btn2"  type="submit" onclick="descriptar(this)">Descripitar</button>
-				<p id="resposta"></p>
-	</div>
+    <div>
+      <textarea
+        type="text"
+        id="mostra"
+        cols="25"
+        rows="10"
+        placeholder="Sua Resposta..."
+      ></textarea>
+      <br />
+      <button class="btn3" type="submit" onclick="copiar(this)">
+        Copiar Resposta
+      </button>
+    </div>
 
-
-<div>
-	<textarea type="text" id="mostra" cols="25" rows="10" placeholder="Sua Resposta..."></textarea>
-		<br>
-			<button class="btn3" type="submit" onclick="copiar(this)">Copiar Resposta</button>
-</div>
-
-<p class="dev"> Carlos Alberto Felippe<br>
-	<u>Aluno da Alura | Turma 2</u></p> 
-</body>
+    <p class="dev">
+      Carlos Alberto Felippe<br />
+      <u>Aluno da Alura | Turma 2</u>
+    </p>
+  </body>
 </html>
